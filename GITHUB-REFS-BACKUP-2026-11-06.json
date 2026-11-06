@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "repository": "DominikSolorz/LinkTalk-Releases",
+  "purpose": "GitHub-only recovery anchor; not an independent copy",
+  "baseRef": "refs/heads/main",
+  "baseSha": "de481a923a4e4302a2f6bb16081e17053d3eb657",
+  "refs": [
+    {
+      "ref": "refs/heads/backup/2026-11-06-main",
+      "sha": "de481a923a4e4302a2f6bb16081e17053d3eb657",
+      "type": "commit"
+    },
+    {
+      "ref": "refs/heads/main",
+      "sha": "de481a923a4e4302a2f6bb16081e17053d3eb657",
+      "type": "commit"
+    },
+    {
+      "ref": "refs/tags/v1.0.0-preview.1",
+      "sha": "f3c4cc98b513e18c27749e3781732d8c241d5022",
+      "type": "commit"
+    }
+  ],
+  "releaseAssetsNotCopied": true
+}
