@@ -11,3 +11,9 @@ Dla każdego nowego pliku: sprawdź pochodzenie i uprawnienia do dystrybucji, te
 Ostatnie potwierdzone wydanie w chwili tworzenia mapy: `v1.0.0-preview.1` z plikiem `LinkTalk-1.0.0-preview.1.apk`. Aktualność zawsze sprawdź w GitHub Releases.
 
 Na końcu podaj: repo źródłowe, commit, tag, asset, SHA-256, wyniki testów i rzeczywisty URL wydania.
+
+## Obowiązek prowadzenia katalogu wydań
+
+Przed zadaniem publikacji przeczytaj [procedurę wydania](docs/PROCEDURA-WYDANIA.md) i [katalog istniejących wydań](docs/KATALOG-WYDAN.md). Każda nowa paczka ma mieć czytelną nazwę z wersją, odpowiedni tag, właściwy stan `prerelease` lub stabilny, źródłowy commit, zweryfikowaną sumę SHA-256 i potwierdzony podpis.
+
+Po publikacji zweryfikuj plik z GitHub Releases i uaktualnij dokumentację, ale **nigdy nie deklaruj instalacji ani działania na urządzeniu bez rzeczywistego testu**. Stare wydania i ich assety zachowuj do audytu i bezpiecznej aktualizacji. W tym repo nie tworzy się nowych kopii kodu React ani plików HTML aplikacji.
