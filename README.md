@@ -24,4 +24,6 @@ To jest repozytorium wydań, **a nie miejsce edycji aplikacji**. Pliki binarne z
 
 Każde wydanie ma otrzymać jednoznaczny tag (np. `vX.Y.Z` lub `vX.Y.Z-preview.N`), nazwę pliku z tym samym numerem, datę, informację o zmianach i sumę kontrolną SHA-256 wyliczoną z gotowego pliku. Nie deklaruj podpisu cyfrowego, jeśli nie został niezależnie sprawdzony. Nie nadpisuj starego tagu innym APK; opublikuj nowe wydanie. Nie dodawaj tutaj kluczy, tokenów, bazy użytkowników ani kodu produkcyjnej aplikacji.
 
+Skróty do zlecania agentom: [AGENT-SHORTCUTS.md](AGENT-SHORTCUTS.md).
+
 Instrukcje dla agentów: [AGENTS.md](AGENTS.md). Pliki i wersje można zobaczyć w [Releases](https://github.com/DominikSolorz/LinkTalk-Releases/releases).
