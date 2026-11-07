@@ -1,5 +1,7 @@
 # Instrukcje dla agentów — 03 / LinkTalk-Releases
 
+Krótkie aliasy zadań `LTR-WYDANIA`, `LTR-APK` itd.: [AGENT-SHORTCUTS.md](AGENT-SHORTCUTS.md).
+
 Repozytorium `DominikSolorz/LinkTalk-Releases` ma jeden cel: udostępniać użytkownikom oficjalne paczki instalacyjne LinkTalk i opis zmian. Nie jest repozytorium źródeł. Sam katalog `main` może być pusty, ponieważ właściwe APK są w GitHub Releases.
 
 Jeżeli zadanie wymaga zmian kodu, UI, konta, katalogu albo API: przenieś je do `DominikSolorz/LinkTalk`, na właściwą bazę kodu, ustaloną po sprawdzeniu wdrożeń. Nie edytuj pliku `app.js` tutaj, bo go nie ma. Nie dotykaj `DominikSolorz/dominiksolorz.github.io` — to HOME SECURITY, osobny produkt.
